@@ -3,8 +3,8 @@ Mikrotik hotspot login page
 
 https://ali7ali.github.io/Mikrotik-hotspot-login-page/
 
-You can use this code with a little modification(background-image-name-etc..).
-<BR>Put the code in Hotspot folder on the Mikrotik router without index.html file(there's no need to).
+<BR>
+Coloque o código na pasta Hotspot no roteador Mikrotik sem o arquivo index.html(não há necessidade de).
 
-<BR>Screen shot:
+<BR>Captura de tela:
 <BR><img src=hotspot.png/>
