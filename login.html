@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Al Maktab Hotspot Login</title>
+		<title>Al Captiveportal</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -42,7 +42,13 @@
 					<div class="main-title">
 				
 					<div class="text-center" id="login" style="padding:25px; border: 0px dotted yellow; border-radius: 6px" >
-<p class=" text-center"><img src="img/logo.png">
+<p class=" text-center">
+	
+	<!-- <img src="img/logo.png">  -->
+	<div class="titu">
+		<h1> Wifi log </h1>
+	</div>
+	
 <br>
 <br>
 <br></p>
@@ -51,12 +57,12 @@
 	$(if chap-id) onSubmit="return doLogin()" $(endif)>
 	<input type="hidden" name="dst" value="$(link-status)" />
 	<input type="hidden" name="popup" value="false" />	  
-    <input name="username" type="text" value="$(username)" class="form-control" placeholder="Username"><br>
-    <input type="password" name="password" class="form-control" placeholder="Password">
+    <input name="username" type="text" value="$(username)" class="form-control" placeholder="Usuário"><br>
+    <input type="password" name="password" class="form-control" placeholder="Senha">
     <br>
 	<p class="text-center text-danger">&nbsp; $(if error) $(error) $(endif) &nbsp;</p>     
     </label> 
-	<input name="submit" type="submit" value="Log In" class="btn btn-lg btn-success btn-block"/>
+	<input name="submit" type="submit" value="Logar" class="btn btn-lg btn-success btn-block"/>
   </form><br><br> 
  
 <div style="padding: 2px; border-top: 1px dotted yellow;">					
@@ -64,7 +70,7 @@
 <span style="color:orange;">
 
 <!--RUNNING TEXT-->
-<strong>Welcome to Al Maktab Cafe</strong>
+<strong>Bem-vindo a Municipal de Cruzeiro do Sul</strong>
 </span>
 </marquee>
 </div>	 

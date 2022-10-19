@@ -1,4 +1,9 @@
 /* Header */
+
+.titu{
+	font-size: 2em;
+	
+}
 .large-header {
 	position: relative;
 	width: 100%;
@@ -10,7 +15,7 @@
 }
 
 .demo-1 .large-header {
-	background-image: url('../img/bg.jpg');
+	background-image: url('../img/Apos-atos-politicos-com-aglomeracoes-Cruzeiro-do-Sul-regride-e-atividades-devem-ser-restritas-ou-proibidas-a-partir-desta-terca-feira-17.png');
 }
 
 
@@ -1648,7 +1653,7 @@ output{
 	line-height:1.428571429;
 	color:#000000;
 	vertical-align:middle;
-	background-color:transparent;
+	background-color:rgb(212, 209, 209);
 	background-image:none;
 	border:1px solid #000000;
 	border-radius:4px;
